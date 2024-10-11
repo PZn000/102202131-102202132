@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 根据需要添加样式 */
 .discussion-container {
   display: flex;
@@ -32,39 +31,4 @@
   color: #fff;
   text-align: center;
   line-height: 50px;
-=======
-/* 根据需要添加样式 */
-.discussion-container {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.discussion-content {
-  flex: 1;
-  padding: 10px;
-  overflow-y: scroll;
-}
-
-.discussion-item {
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.input-area {
-  display: flex;
-  padding: 10px;
-  background-color: #fff;
-}
-
-.send-button {
-  flex: 1;
-  margin-left: 10px;
-  background-color: #0ba360;
-  color: #fff;
-  text-align: center;
-  line-height: 50px;
->>>>>>> dc40d99 (Initial Commit)
 }

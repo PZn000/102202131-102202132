@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <view class="container">
   <view class="header">
     <text class="title">项目列表</text>
@@ -16,22 +15,3 @@
     </view>
   </view>
 </view>
-=======
-<view class="container">
-  <view class="header">
-    <text class="title">项目列表</text>
-  </view>
-  
-  <view class="project-list">
-    <view class="project-item" wx:for="{{projects}}" wx:key="{{item._id}}">
-      <text>项目名称: {{item.projectName}}</text>
-      <text>发起者: {{item.publisher}}</text>
-      <text>参与者: {{item.participants.join(', ')}}</text>
-      <text>项目介绍: {{item.projectIntroduction}}</text>
-      <text>项目类型: {{item.projectType}}</text>
-      <text>时间安排: {{item.timeschedule}}</text>
-      <view class="separator"></view>
-    </view>
-  </view>
-</view>
->>>>>>> 90c2834 (none)

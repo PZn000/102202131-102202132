@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <view class="message-list">
   <block wx:for="{{messages}}" wx:key="index">
     <view class="message-item" bindtap="goToChatPage" data-index="{{index}}">
@@ -9,16 +8,4 @@
       </view>
     </view>
   </block>
-=======
-<view class="message-list">
-  <block wx:for="{{messages}}" wx:key="index">
-    <view class="message-item" bindtap="goToChatPage" data-index="{{index}}">
-      <image class="avatar" src="{{item.avatar}}" mode="aspectFill"/>
-      <view class="message-content">
-        <view class="name">{{item.name}}</view>
-        <view class="last-message">{{item.lastMessage}}</view>
-      </view>
-    </view>
-  </block>
->>>>>>> dc40d99 (Initial Commit)
 </view>

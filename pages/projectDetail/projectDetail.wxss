@@ -1,56 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* 全局表单容器样式 */
 .form-container {
-  padding: 20px;
-  background-color: #f9f9f9;
-}
-
-/* 每个表单项的样式 */
-.form-item {
-  margin-bottom: 10px;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-/* 参与者部分样式 */
-.form-item text {
-  margin-right: 5px;
-}
-
-/* 按钮样式 */
-.form-submit {
-  margin-top: 20px;
-}
-
-/* 加入按钮样式 */
-.join-btn,
-.discussion-btn {
-  background-color: #007aff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  width: 100%;
-  text-align: center;
-}
-
-/* 收藏按钮的图片样式，并放置在右上角 */
-.collect-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px;
-  height: 30px;
-}
-=======
-/* 根据需要添加样式 */
-.project-detail {
-=======
-/* 全局表单容器样式 */
-.form-container {
->>>>>>> 90c2834 (none)
   padding: 20px;
   background-color: #f9f9f9;
 }
@@ -81,10 +30,6 @@
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-<<<<<<< HEAD
-}
->>>>>>> dc40d99 (Initial Commit)
-=======
   width: 100%;
   text-align: center;
 }
@@ -97,4 +42,3 @@
   width: 30px;
   height: 30px;
 }
->>>>>>> 90c2834 (none)

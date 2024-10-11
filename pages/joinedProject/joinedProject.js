@@ -11,12 +11,14 @@ Page({
   loadProjects: function() {
     const db = wx.cloud.database();
     const user = app.globalData.user;
-    console.log('1')
-    console.log(user.length)
+    const _ = db.command;
     if (user) {
-      db.collection('project').where({
-        user: user
-      }).get().then(res => {
+      db.collection('project').where(
+        _.or([ 
+          { user: user }, // 'user' 字段值等于 'user'
+          { participator: _.eq(user) } // 'participator' 数组字段中包含 'user'
+        ])
+      ).get().then(res => {
         console.log(res)
         if (res.data.length > 0) {
           this.setData({

@@ -1,44 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* pages/addProject/addProject.wxss */
-.form-container {
-  padding: 20px;
-}
-
-.form-item {
-  margin-bottom: 20px;
-}
-
-.form-item text {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.form-item input,
-.form-item textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-.form-submit {
-  margin-top: 30px;
-}
-
-.form-submit button {
-  width: 100%;
-  padding: 10px;
-  background-color: #0ba360;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-=======
-=======
-/* pages/addProject/addProject.wxss */
->>>>>>> 90c2834 (none)
 .form-container {
   padding: 20px;
 }
@@ -76,7 +36,3 @@
   border: none;
   border-radius: 5px;
 }
-<<<<<<< HEAD
->>>>>>> dc40d99 (Initial Commit)
-=======
->>>>>>> 90c2834 (none)

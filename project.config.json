@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-{
-  "appid": "wxed12124d751ec979",
-  "compileType": "miniprogram",
-  "libVersion": "3.6.0",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
-  "setting": {
-    "coverView": true,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "enhance": true,
-    "showShadowRootInWxmlPanel": true,
-    "packNpmRelationList": [],
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    }
-  },
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
-=======
 {
   "compileType": "miniprogram",
   "libVersion": "trial",
@@ -53,6 +24,6 @@
     "tabIndent": "auto",
     "tabSize": 2
   },
-  "appid": "wx944d0c802e3cbc13"
->>>>>>> dc40d99 (Initial Commit)
+  "appid": "wx944d0c802e3cbc13",
+  "projectname": "miniprogram-3"
 }

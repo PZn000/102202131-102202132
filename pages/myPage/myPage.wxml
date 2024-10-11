@@ -1,92 +1,3 @@
-<<<<<<< HEAD
-<view class="user-info">
-  <view class="avatar" wx:if="{{!isEditing}}">
-    <image class="avatar-image" src="{{userInfo.avatar}}" mode="aspectFill" />
-  </view>
-  <view class="avatar" wx:else>
-    <view class="avatar-image-edit" bindtap="enterEditMode">编辑头像</view>
-  </view>
-
-  <view class="personal-details">
-    <view class="student-id" wx:if="{{!isEditing}}">学号: {{userInfo.studentId}}</view>
-    <input class="student-id" wx:else type="text" placeholder="学号" value="{{userInfo.studentId}}" data-field="studentId" bindinput="onFieldInput" />
-    
-    <view class="name" wx:if="{{!isEditing}}">姓名: {{userInfo.name}}</view>
-    <input class="name" wx:else type="text" placeholder="姓名" value="{{userInfo.name}}" data-field="name" bindinput="onFieldInput" />
-    
-    <view class="major" wx:if="{{!isEditing}}">专业: {{userInfo.major}}</view>
-    <input class="major" wx:else type="text" placeholder="专业" value="{{userInfo.major}}" data-field="major" bindinput="onFieldInput" />
-  </view>
-</view> <!-- 关闭 user-info -->
-
-<view class="menu">
-  <view class="menu-item" bindtap="goToPersonalInfo">
-    <text>个人信息</text>
-  </view>
-  <view class="menu-item" bindtap="showParticipantInputModal"> <!-- 点击后显示参与者输入模态框 -->
-    <text>我的项目</text>
-  </view>
-  <view class="menu-item" bindtap="goToDynamic">
-    <text>我的动态</text>
-  </view>
-  <view class="menu-item" bindtap="goToCollection">
-    <text>我的收藏</text>
-  </view>
-  <view class="menu-item" bindtap="logout"> <!-- 退出登录选项 -->
-    <text>退出登录</text>
-  </view>
-</view>
-
-<view class="edit-controls" wx:if="{{isEditing}}">
-  <button bindtap="saveEdits">确定</button>
-</view>
-
-<!-- 编辑按钮（橙色背景右下角） -->
-<view class="edit-btn">
-  <image class="icon-button" src="/pages/myPage/image/write.jpg" mode="aspectFill" bindtap="enterEditMode" />
-</view>
-
-<!-- 设置按钮（右上角） -->
-<view class="settings-btn">
-  <image class="icon-button" src="/pages/myPage/image/setting.jpg" mode="aspectFill" bindtap="goToSettings" />
-</view>
-
-<!-- 参与者输入模态框 -->
-<view class="modal" wx:if="{{showInputModal}}">
-  <view class="modal-content">
-    <view class="modal-header">
-      <text>请输入参与者名称：</text>
-    </view>
-    <view class="modal-body">
-      <input type="text" placeholder="参与者名称" value="{{participantName}}" bindinput="onFieldInput" data-field="participantName" />
-    </view>
-    <view class="modal-footer">
-      <button bindtap="confirmParticipant">确认</button>
-      <button bindtap="hideInputModal">取消</button>
-    </view>
-  </view>
-</view>
-
-<!-- 项目模态框 -->
-<view class="modal" wx:if="{{showModal}}">
-  <view class="modal-content">
-    <view class="modal-header">
-      <text>相关项目</text>
-    </view>
-    <view class="modal-body">
-      <!-- 项目内容 -->
-      <view class="project-list">
-        <view class="project-item" wx:for="{{filteredProjects}}" wx:key="{{item.id}}">
-          <text>{{item.name}}</text> <!-- 显示过滤后的项目名称 -->
-        </view>
-      </view>
-    </view>
-    <view class="modal-footer">
-      <button bindtap="hideModal">关闭</button>
-    </view>
-  </view>
-</view>
-=======
 <view class="user-info">
   <view class="avatar">
     <image class="avatar-image" src="images/default-avatar.png" mode="aspectFill"/>
@@ -126,19 +37,6 @@
   <image src="images/settings.png"></image>
 </view>
 
-<<<<<<< HEAD
-<view class="projects-participated">参加项目</view>
-
-<view class="my-page">
-  <!-- 其他用户信息 -->
-
-  <!-- 设置按钮 -->
-  <view class="settings-btn" bindtap="goToSettings">
-    <image src = 'image/setting.png'></image>
-  </view>
-</view>
->>>>>>> dc40d99 (Initial Commit)
-=======
 <!-- 编辑个人信息的表单 -->
 <view wx:if="{{editMode}}">
   <form bindsubmit="saveUserInfo">
@@ -174,4 +72,3 @@
   </form>
 </view>
 <button bindtap="joinedProject">参与的项目</button>
->>>>>>> 90c2834 (none)

@@ -1,51 +1,3 @@
-<<<<<<< HEAD
-<view class="form-container">
-  <view class="form-item">
-    <text>项目名称：</text>
-    <input type="text" placeholder="请输入项目名称" bindinput="inputProjectName"/>
-  </view>
-  <view class="form-item">
-    <text>项目类型：</text>
-    <input type="text" placeholder="请输入项目类型" bindinput="inputProjectType"/>
-  </view>
-  <view class="form-item">
-    <text>所需专业：</text>
-    <input type="text" placeholder="请输入所需专业" bindinput="inputMajorsRequired"/>
-  </view>
-  <view class="form-item">
-    <text>时间安排：</text>
-    <input type="text" placeholder="请输入时间安排" bindinput="inputTimeSchedule"/>
-  </view>
-  <view class="form-item">
-    <text>联系方式：</text>
-    <input type="text" placeholder="请输入联系方式" bindinput="inputContactInfo"/>
-  </view>
-  <view class="form-item">
-    <text>成员要求：</text>
-    <input type="text" placeholder="请输入成员要求" bindinput="inputMemberRequirements"/>
-  </view>
-  <view class="form-item">
-    <text>项目简介：</text>
-    <textarea placeholder="请输入项目简介" bindinput="inputProjectIntroduction"></textarea>
-  </view>
-  
-  <view class="form-item">
-    <text>发布者：</text>
-    <input type="text" placeholder="学号-姓名-专业-联系方式" bindinput="inputPublisher"/>
-  </view>
-  
-  <!-- 参与者输入 -->
-  <view class="form-item">
-    <text>参与者：</text>
-    <input type="text" placeholder="请输入参与者信息" bindinput="inputParticipants" />
-    <button bindtap="addParticipant">添加参与者</button>
-  </view>
-
-  <view class="form-submit">
-    <button bindtap="submitProject">提交项目申请</button>
-  </view>
-</view>
-=======
 <view class="form-container">
   <view class="form-item">
     <text>项目名称：</text>
@@ -79,7 +31,3 @@
     <button bindtap="submitProject">添加项目</button>
   </view>
 </view>
-<<<<<<< HEAD
->>>>>>> dc40d99 (Initial Commit)
-=======
->>>>>>> 90c2834 (none)

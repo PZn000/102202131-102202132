@@ -1,54 +1,3 @@
-<<<<<<< HEAD
-{
-  "pages": [
-    "pages/homePage/homePage",
-    "pages/loginRegisterPage/loginRegisterPage",
-    "pages/mainPage/mainPage",
-    "pages/text/text",
-    "pages/messagePage/messagePage",
-    "pages/myPage/myPage",
-    "pages/projectDetail/projectDetail",
-    "pages/addProject/addProject",
-    "pages/chatPage/chatPage",
-    "pages/discussionArea/discussionArea",
-    "pages/settings/settings",
-    "pages/forgotPassword/forgotPassword",
-    "pages/my/my",
-    "pages/collectionPage/collectionPage",
-    "pages/forum/forum",
-    "pages/projectResults/projectResults"
-  ],
-  "window": {
-    "navigationBarTitleText": "专业项目交流小程序"
-  },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/homePage/homePage",
-        "text": "主页"
-      },
-      {
-        "pagePath": "pages/messagePage/messagePage",
-        "text": "消息"
-      },
-      {
-        "pagePath": "pages/forum/forum",
-        "text": "论坛"
-      },
-      {
-        "pagePath": "pages/myPage/myPage",
-        "text": "我的"
-      }
-    ],
-    "color": "#000",
-    "selectedColor": "#0ba360",
-    "backgroundColor": "#fff",
-    "borderStyle": "black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
-}
-=======
 {
   "pages": [
     "pages/loginRegisterPage/loginRegisterPage",
@@ -98,4 +47,3 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
->>>>>>> dc40d99 (Initial Commit)

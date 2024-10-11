@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <view class="container">
   <view wx:if="{{projects.length > 0}}">
     <view class="project-item" wx:for="{{projects}}" wx:key="id">
@@ -11,17 +10,3 @@
     <text>没有找到相关项目</text>
   </view>
 </view>
-=======
-<view class="container">
-  <view wx:if="{{projects.length > 0}}">
-    <view class="project-item" wx:for="{{projects}}" wx:key="id">
-      <text class="project-name">{{item.projectName}}</text>
-      <text class="project-publisher">发布者: {{item.publisher}}</text>
-      <text class="project-participants">参与者: {{item.participants.join(', ')}}</text>
-    </view>
-  </view>
-  <view wx:else>
-    <text>没有找到相关项目</text>
-  </view>
-</view>
->>>>>>> 90c2834 (none)

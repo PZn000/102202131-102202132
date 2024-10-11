@@ -1,24 +1,10 @@
 {
-<<<<<<< HEAD
-  "name": "miniprogram-3",
-=======
   "name": "mine",
->>>>>>> dc40d99 (Initial Commit)
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@cloudbase/wx-cloud-client-sdk": "^1.2.1",
-    "vant-weapp": "^0.5.29"
-  },
-  "description": ""
-=======
   "author": "",
   "license": "ISC",
   "description": "",
@@ -26,5 +12,4 @@
     "@cloudbase/wx-cloud-client-sdk": "^1.2.1",
     "regenerator-runtime": "^0.14.1"
   }
->>>>>>> dc40d99 (Initial Commit)
 }
